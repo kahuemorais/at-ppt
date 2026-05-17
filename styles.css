@@ -1025,7 +1025,7 @@ footer {
 
 .activation-subtitle {
     font-size: 16px;
-    color: var(--text-muted);
+    color: var(--text-secondary);
     max-width: 600px;
     margin: 0 auto;
 }
@@ -1076,7 +1076,7 @@ footer {
 
 .activation-label {
     font-size: 16px;
-    color: var(--text-muted);
+    color: var(--text-secondary);
 }
 
 @media (max-width: 1024px) {
@@ -1175,7 +1175,7 @@ footer {
 
 .withdraw-sub {
     font-size: 16px;
-    color: var(--text-muted);
+    color: var(--text-secondary);
     margin-bottom: 16px;
 }
 
@@ -1528,7 +1528,7 @@ footer {
 
 .vip-subtitle {
     font-size: 18px;
-    color: var(--text-muted);
+    color: var(--text-secondary);
 }
 
 .vip-grid {
@@ -1667,7 +1667,7 @@ div.vip-card.vip-gold-card .vip-content {
 
 .vip-requirement .vip-label {
     font-size: 16px;
-    color: var(--text-muted);
+    color: var(--text-secondary);
     text-transform: uppercase;
     letter-spacing: 1px;
 }
@@ -1679,6 +1679,7 @@ div.vip-card.vip-gold-card .vip-content {
 }
 
 .vip-reward {
+    width: 100%;
     background: linear-gradient(135deg, rgba(139, 130, 246, 0.15), rgba(245, 158, 11, 0.08));
     border: 1px solid;
     border-image: linear-gradient(135deg, var(--accent), #f59e0b) 1;
@@ -1711,7 +1712,7 @@ div.vip-card.vip-gold-card .vip-content {
 
 .vip-note {
     font-size: 16px;
-    color: var(--text-muted);
+    color: var(--text-secondary);
 }
 
 /* Transparency Section */
@@ -1909,7 +1910,7 @@ section.vip-section .vip-master-card {
 
 .earn-subtitle {
     font-size: 18px;
-    color: var(--text-muted);
+    color: var(--text-secondary);
 }
 
 .earn-grid {
@@ -1992,7 +1993,7 @@ section.vip-section .vip-master-card {
 
 .earn-note {
     font-size: 14px;
-    color: var(--text-muted);
+    color: var(--text-secondary);
     font-style: italic;
 }
 
@@ -2009,7 +2010,7 @@ section.vip-section .vip-master-card {
 
 .vip-subtitle {
     font-size: 18px;
-    color: var(--text-muted);
+    color: var(--text-secondary);
 }
 
 .vip-grid {
@@ -2086,7 +2087,7 @@ section.vip-section .vip-master-card {
 
 .vip-requirement .vip-label {
     font-size: 12px;
-    color: var(--text-muted);
+    color: var(--text-secondary);
     text-transform: uppercase;
     letter-spacing: 1px;
 }
