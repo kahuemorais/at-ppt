@@ -1206,6 +1206,16 @@ footer {
     margin-bottom: 12px;
 }
 
+.standards-note {
+    text-align: center;
+    font-size: 13px;
+    color: var(--text-secondary);
+    opacity: 0.7;
+    margin-top: -24px;
+    margin-bottom: 32px;
+    font-style: italic;
+}
+
 .advantage-highlight {
     font-size: 18px !important;
     font-weight: 600;
