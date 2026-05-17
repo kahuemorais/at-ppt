@@ -626,21 +626,5 @@
     </footer>
 
     <script src="app.js"></script>
-    <script type="module">
-        import PrismaticBurst from './js/PrismaticBurst.mjs';
-
-        const canvas = document.getElementById('vipMasterCanvas');
-        if (canvas) {
-            const pb = new PrismaticBurst(canvas);
-            pb.update({
-                intensity: 2.5,
-                speed: 0.6,
-                animationType: 'rotate3d',
-                colors: ['#8b82f6', '#a78bfa', '#c4b5fd', '#f59e0b', '#fbbf24'],
-                distort: 8
-            });
-            canvas.style.mixBlendMode = 'screen';
-        }
-    </script>
 </body>
 </html>
