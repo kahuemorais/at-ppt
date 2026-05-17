@@ -1300,6 +1300,13 @@ footer {
     margin-top: 24px;
 }
 
+.vip-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-top: 24px;
+}
+
 .vip-card {
     background: var(--card-bg);
     border: 1px solid var(--border);
@@ -1696,6 +1703,10 @@ footer {
     }
 
     .vip-top-tier {
+        grid-template-columns: 1fr;
+    }
+
+    .vip-row {
         grid-template-columns: 1fr;
     }
 
