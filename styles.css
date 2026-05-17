@@ -29,7 +29,7 @@ body {
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Sora', sans-serif;
+    font-family: 'Orbitron', sans-serif;
     font-weight: 700;
 }
 
@@ -77,7 +77,7 @@ h1, h2, h3, h4 {
     border: none;
     background: transparent;
     color: var(--text-secondary);
-    font-family: 'Sora', sans-serif;
+    font-family: 'Orbitron', sans-serif;
     font-size: 16px;
     font-weight: 600;
     border-radius: 100px;
@@ -140,7 +140,7 @@ section {
 }
 
 .hero-label {
-    font-family: 'Sora', sans-serif;
+    font-family: 'Orbitron', sans-serif;
     font-size: 16px;
     font-weight: 500;
     color: var(--text-secondary);
@@ -149,7 +149,7 @@ section {
 }
 
 .hero-eyebrow {
-    font-family: 'Sora', sans-serif;
+    font-family: 'Orbitron', sans-serif;
     font-size: 16px;
     font-weight: 500;
     color: var(--accent);
@@ -196,7 +196,7 @@ h1 .accent {
     padding: 18px 36px;
     background: var(--accent);
     color: white;
-    font-family: 'Sora', sans-serif;
+    font-family: 'Orbitron', sans-serif;
     font-weight: 600;
     font-size: 16px;
     border: none;
@@ -241,7 +241,7 @@ h1 .accent {
 }
 
 .section-number {
-    font-family: 'Sora', sans-serif;
+    font-family: 'Orbitron', sans-serif;
     font-size: 16px;
     font-weight: 600;
     color: var(--accent);
@@ -304,7 +304,7 @@ h1 .accent {
 }
 
 .location-name {
-    font-family: 'Sora', sans-serif;
+    font-family: 'Orbitron', sans-serif;
     font-size: 22px;
     font-weight: 700;
     margin-bottom: 10px;
@@ -343,7 +343,7 @@ h1 .accent {
 }
 
 .stat-value {
-    font-family: 'Sora', sans-serif;
+    font-family: 'Orbitron', sans-serif;
     font-size: 64px;
     font-weight: 800;
     color: var(--accent);
@@ -432,7 +432,7 @@ h1 .accent {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Sora', sans-serif;
+    font-family: 'Orbitron', sans-serif;
     font-size: 28px;
     font-weight: 700;
     color: white;
@@ -448,7 +448,7 @@ h1 .accent {
 }
 
 .team-name {
-    font-family: 'Sora', sans-serif;
+    font-family: 'Orbitron', sans-serif;
     font-size: 19px;
     font-weight: 700;
     margin-bottom: 8px;
@@ -564,7 +564,7 @@ h1 .accent {
 
 .plans-table th {
     background: var(--bg-card);
-    font-family: 'Sora', sans-serif;
+    font-family: 'Orbitron', sans-serif;
     font-weight: 600;
     font-size: 16px;
     text-transform: uppercase;
@@ -581,7 +581,7 @@ h1 .accent {
 }
 
 .plan-name {
-    font-family: 'Sora', sans-serif;
+    font-family: 'Orbitron', sans-serif;
     font-weight: 700;
     color: var(--accent);
     font-size: 16px;
@@ -635,14 +635,14 @@ h1 .accent {
         }
 
         .level-num {
-            font-family: 'Sora', sans-serif;
+            font-family: 'Orbitron', sans-serif;
             font-size: 16px;
             font-weight: 600;
             color: var(--text-secondary);
         }
 
         .level-comm {
-            font-family: 'Sora', sans-serif;
+            font-family: 'Orbitron', sans-serif;
             font-size: 24px;
             font-weight: 700;
             color: var(--accent);
@@ -686,13 +686,13 @@ h1 .accent {
     color: white;
     padding: 14px 28px;
     border-radius: 10px;
-    font-family: 'Sora', sans-serif;
+    font-family: 'Orbitron', sans-serif;
     font-weight: 700;
     font-size: 16px;
 }
 
 .commission-title {
-    font-family: 'Sora', sans-serif;
+    font-family: 'Orbitron', sans-serif;
     font-size: 32px;
     font-weight: 700;
 }
@@ -713,7 +713,7 @@ h1 .accent {
 
 .commission-table th {
     background: var(--bg-secondary);
-    font-family: 'Sora', sans-serif;
+    font-family: 'Orbitron', sans-serif;
     font-weight: 600;
     font-size: 16px;
 }
@@ -740,7 +740,7 @@ footer {
 }
 
 .footer-logo {
-    font-family: 'Sora', sans-serif;
+    font-family: 'Orbitron', sans-serif;
     font-size: 32px;
     font-weight: 800;
 }
