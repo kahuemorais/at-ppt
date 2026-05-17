@@ -1281,6 +1281,20 @@ footer {
 .global-section {
     padding: 80px 0;
     background: var(--bg-secondary);
+    position: relative;
+}
+
+.global-section::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom, rgba(10,10,11,0.4), rgba(10,10,11,0.6));
+    z-index: 0;
+}
+
+.global-section .container {
+    position: relative;
+    z-index: 1;
 }
 
 .global-header {
