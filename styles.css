@@ -1574,7 +1574,7 @@ footer {
 }
 
 div.vip-card.vip-gold-card {
-    background: linear-gradient(rgba(10, 10, 11, 0.50), rgba(10, 10, 11, 0.65)), url('img/iphone.jpeg') right 200px center/cover no-repeat !important;
+    background: linear-gradient(rgba(10, 10, 11, 0.50), rgba(10, 10, 11, 0.65)), url('img/iphone.jpeg') 55% center/cover no-repeat !important;
     border-color: #f59e0b !important;
     text-align: left !important;
 }
