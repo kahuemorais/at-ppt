@@ -834,6 +834,23 @@ footer {
     font-size: 16px;
 }
 
+.footer-social {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.social-link {
+    color: var(--text-secondary);
+    font-size: 14px;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.social-link:hover {
+    color: var(--accent);
+}
+
 @media (max-width: 1024px) {
     .split-section,
     .split-section.reverse {
