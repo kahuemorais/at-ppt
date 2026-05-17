@@ -78,7 +78,7 @@ h1, h2, h3, h4 {
     background: transparent;
     color: var(--text-secondary);
     font-family: 'Sora', sans-serif;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 600;
     border-radius: 100px;
     cursor: pointer;
@@ -156,7 +156,7 @@ section {
 
 .hero-label {
     font-family: 'Sora', sans-serif;
-    font-size: 13px;
+    font-size: 16px;
     font-weight: 500;
     color: var(--text-secondary);
     margin-bottom: 16px;
@@ -165,7 +165,7 @@ section {
 
 .hero-eyebrow {
     font-family: 'Sora', sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 500;
     color: var(--accent);
     margin-bottom: 24px;
@@ -213,7 +213,7 @@ h1 .accent {
     color: white;
     font-family: 'Sora', sans-serif;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 16px;
     border: none;
     border-radius: 10px;
     cursor: pointer;
@@ -257,7 +257,7 @@ h1 .accent {
 
 .section-number {
     font-family: 'Sora', sans-serif;
-    font-size: 11px;
+    font-size: 16px;
     font-weight: 600;
     color: var(--accent);
     margin-bottom: 28px;
@@ -328,7 +328,7 @@ h1 .accent {
 
 .location-role {
     color: var(--text-secondary);
-    font-size: 14px;
+    font-size: 16px;
     position: relative;
 }
 
@@ -413,7 +413,7 @@ h1 .accent {
 }
 
 .feature-content p {
-    font-size: 14px;
+    font-size: 16px;
     color: var(--text-secondary);
     line-height: 1.8;
 }
@@ -470,7 +470,7 @@ h1 .accent {
 }
 
 .team-role {
-    font-size: 13px;
+    font-size: 16px;
     color: var(--text-secondary);
 }
 
@@ -535,7 +535,7 @@ h1 .accent {
     background: var(--bg-card);
     font-family: 'Sora', sans-serif;
     font-weight: 600;
-    font-size: 11px;
+    font-size: 16px;
     text-transform: uppercase;
     letter-spacing: 0.1em;
     color: var(--text-secondary);
@@ -562,7 +562,7 @@ h1 .accent {
     color: var(--accent);
     padding: 5px 12px;
     border-radius: 6px;
-    font-size: 11px;
+    font-size: 16px;
     font-weight: 600;
     margin-left: 12px;
 }
@@ -605,7 +605,7 @@ h1 .accent {
 
         .level-num {
             font-family: 'Sora', sans-serif;
-            font-size: 14px;
+            font-size: 16px;
             font-weight: 600;
             color: var(--text-secondary);
         }
@@ -620,7 +620,7 @@ h1 .accent {
         .levels-note {
             text-align: center;
             margin-top: 40px;
-            font-size: 14px;
+            font-size: 16px;
             color: var(--text-secondary);
         }
 
@@ -684,12 +684,12 @@ h1 .accent {
     background: var(--bg-secondary);
     font-family: 'Sora', sans-serif;
     font-weight: 600;
-    font-size: 13px;
+    font-size: 16px;
 }
 
 .commission-table td {
     text-align: center;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .commission-table tbody tr:hover {
@@ -725,7 +725,7 @@ footer {
 
 .footer-text {
     color: var(--text-secondary);
-    font-size: 14px;
+    font-size: 16px;
 }
 
 @media (max-width: 1024px) {
@@ -764,7 +764,7 @@ footer {
     }
 
     .plans-table {
-        font-size: 11px;
+        font-size: 16px;
     }
 
     .plans-table th,
@@ -869,7 +869,7 @@ footer {
 }
 
 .activation-level {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
     color: var(--accent);
 }
@@ -880,7 +880,7 @@ footer {
 }
 
 .activation-label {
-    font-size: 12px;
+    font-size: 16px;
     color: var(--text-muted);
 }
 
@@ -958,13 +958,13 @@ footer {
 }
 
 .withdraw-sub {
-    font-size: 14px;
+    font-size: 16px;
     color: var(--text-muted);
     margin-bottom: 16px;
 }
 
 .withdraw-desc {
-    font-size: 14px;
+    font-size: 16px;
     color: var(--text-secondary);
     line-height: 1.6;
 }
@@ -1098,7 +1098,7 @@ footer {
 }
 
 .standards-advantage p {
-    font-size: 15px;
+    font-size: 16px;
     line-height: 1.7;
     color: var(--text-secondary);
     margin-bottom: 12px;
@@ -1183,7 +1183,7 @@ footer {
 
 .global-note {
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
     color: var(--text-muted);
     margin-bottom: 40px;
 }
@@ -1219,14 +1219,14 @@ footer {
 }
 
 .volume-label {
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 600;
     color: white;
     margin-bottom: 8px;
 }
 
 .volume-value {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 700;
     color: white;
 }
@@ -1288,7 +1288,7 @@ footer {
 }
 
 .transparency-card p {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.6;
     color: var(--text-secondary);
 }
@@ -1372,7 +1372,7 @@ footer {
 }
 
 .comm-label {
-    font-size: 14px;
+    font-size: 16px;
     color: var(--text-secondary);
 }
 
@@ -1389,7 +1389,7 @@ footer {
 }
 
 .incentive-summary p {
-    font-size: 14px;
+    font-size: 16px;
     color: var(--text-muted);
     margin-bottom: 24px;
 }
@@ -1412,13 +1412,15 @@ footer {
 
 /* Responsive */
 @media (max-width: 768px) {
-    .analytical-title { font-size: 28px; }
-    .analytical-subtitle { font-size: 14px; letter-spacing: 2px; }
-    .standards-chart { gap: 16px; }
-    .chart-marker { padding: 12px 16px; font-size: 16px; }
+.analytical-title { font-size: 28px; }
+    .analytical-subtitle { font-size: 18px; letter-spacing: 2px; }
+
+    .chart-marker { padding: 12px 16px; font-size: 18px; }
+
     .binary-title { font-size: 24px; }
+
     .transparency-grid { grid-template-columns: 1fr; }
     .global-title { font-size: 22px; }
     .assets-grid { gap: 12px; }
-    .asset-item { padding: 12px 20px; font-size: 14px; }
+    .asset-item { padding: 12px 20px; font-size: 18px; }
 }
