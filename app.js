@@ -150,7 +150,12 @@ const translations = {
         "l5": "Level 5", "l6": "Level 6",
         "l9": "Level 9", "l10": "Level 10", "l11": "Level 11", "l12": "Level 12",
         "l13": "Level 13", "l14": "Level 14",
-        "rights": "All rights reserved."
+        "guide-start": "New to investing?",
+        "guide-start-desc": "Start with MICRO to test the platform with minimal risk.",
+        "guide-steady": "Looking for steady income?",
+        "guide-steady-desc": "BUILDER and ADVANCE offer strong daily returns with compounding potential.",
+        "guide-max": "Maximize returns?",
+        "guide-max-desc": "ELITE delivers the highest daily rate with long-term compounding.",
     },
     pt: {
         "eyebrow": "Bicampeão Mundial de Trading",
@@ -303,6 +308,12 @@ const translations = {
         "l5": "Nível 5", "l6": "Nível 6", "l7": "Nível 7", "l8": "Nível 8",
         "l9": "Nível 9", "l10": "Nível 10", "l11": "Nível 11", "l12": "Nível 12",
         "l13": "Nível 13", "l14": "Nível 14",
+        "guide-start": "Começando a investir?",
+        "guide-start-desc": "Comece pelo MICRO para testar a plataforma com risco mínimo.",
+        "guide-steady": "Buscando renda fixa?",
+        "guide-steady-desc": "BUILDER e ADVANCE oferecem retornos diários sólidos com potencial de juros compostos.",
+        "guide-max": "Maximizar retornos?",
+        "guide-max-desc": "ELITE entrega a maior taxa diária com potencial de composição a longo prazo.",
         "rights": "Todos os direitos reservados."
     }
 };

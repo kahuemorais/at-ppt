@@ -598,6 +598,36 @@ h1 .accent {
     margin-left: 12px;
 }
 
+.plans-guidance {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-top: 32px;
+    padding-top: 32px;
+    border-top: 1px solid var(--border);
+}
+
+.guidance-item {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.guidance-label {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.guidance-desc {
+    font-size: 14px;
+    color: var(--text-secondary);
+    line-height: 1.6;
+}
+
 .levels-grid {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
