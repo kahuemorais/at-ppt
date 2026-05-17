@@ -1422,6 +1422,104 @@ footer {
     color: var(--text-muted);
 }
 
+/* Transparency Section */
+.transparency-section {
+    padding: 120px 0;
+    position: relative;
+}
+
+.transparency-header {
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+.transparency-title {
+    font-size: clamp(32px, 5vw, 52px);
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    background: linear-gradient(135deg, var(--text-primary), var(--accent));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 16px;
+}
+
+.transparency-subtitle {
+    font-size: 18px;
+    color: var(--text-secondary);
+    font-weight: 400;
+}
+
+.transparency-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+
+.transparency-card {
+    position: relative;
+    background: rgba(24, 24, 27, 0.6);
+    border: 1px solid rgba(139, 92, 246, 0.2);
+    border-radius: 20px;
+    padding: 40px 36px;
+    overflow: hidden;
+    transition: border-color 0.3s ease, transform 0.3s ease;
+}
+
+.transparency-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, var(--accent), transparent);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.transparency-card:hover {
+    border-color: rgba(139, 92, 246, 0.5);
+    transform: translateY(-4px);
+}
+
+.transparency-card:hover::before {
+    opacity: 1;
+}
+
+.transparency-icon {
+    width: 64px;
+    height: 64px;
+    border-radius: 16px;
+    background: linear-gradient(135deg, rgba(139, 92, 246, 0.2), rgba(139, 92, 246, 0.05));
+    border: 1px solid rgba(139, 92, 246, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 28px;
+    color: var(--accent);
+}
+
+.transparency-card h3 {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 16px;
+    letter-spacing: 0.01em;
+}
+
+.transparency-card p {
+    font-size: 15px;
+    color: var(--text-secondary);
+    line-height: 1.8;
+}
+
+@media (max-width: 768px) {
+    .transparency-grid { grid-template-columns: 1fr; }
+    .transparency-section { padding: 80px 0; }
+    .transparency-card { padding: 32px 24px; }
+}
+
 /* VIP Master Special Card */
 .vip-master-card {
     position: relative;
