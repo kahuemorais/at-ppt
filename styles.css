@@ -1603,6 +1603,24 @@ div.vip-card.vip-gold-card .vip-content {
     align-items: flex-start !important;
 }
 
+.vip-card:not(.vip-gold-card) {
+    text-align: left !important;
+}
+
+.vip-card:not(.vip-gold-card) .vip-level-img,
+.vip-card:not(.vip-gold-card) .vip-level-badge {
+    margin-left: 0 !important;
+}
+
+.vip-card:not(.vip-gold-card) .vip-level-name,
+.vip-card:not(.vip-gold-card) .vip-content {
+    text-align: left !important;
+}
+
+.vip-card:not(.vip-gold-card) .vip-content {
+    align-items: flex-start !important;
+}
+
 .vip-level-img {
     width: 80px;
     height: 80px;
