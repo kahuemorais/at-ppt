@@ -1315,6 +1315,13 @@ footer {
     grid-column: span 2;
 }
 
+.vip-level-img {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 16px;
+    object-fit: contain;
+}
+
 .vip-level-badge {
     display: inline-block;
     background: linear-gradient(135deg, var(--accent), #a78bfa);
