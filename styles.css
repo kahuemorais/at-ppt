@@ -1573,12 +1573,13 @@ footer {
     transform: translateY(-4px);
 }
 
-.vip-gold-card {
-    background: linear-gradient(rgba(10, 10, 11, 0.50), rgba(10, 10, 11, 0.65)), url('img/iphone.jpeg') center/cover no-repeat;
-    border-color: #f59e0b;
+div.vip-card.vip-gold-card {
+    background: linear-gradient(rgba(10, 10, 11, 0.50), rgba(10, 10, 11, 0.65)), url('img/iphone.jpeg') right center/cover no-repeat !important;
+    border-color: #f59e0b !important;
+    text-align: left !important;
 }
 
-.vip-gold-card::before {
+div.vip-card.vip-gold-card::before {
     content: '';
     position: absolute;
     inset: 0;
@@ -1586,12 +1587,20 @@ footer {
     pointer-events: none;
 }
 
-.vip-gold-card .vip-level-img,
-.vip-gold-card .vip-level-badge,
-.vip-gold-card .vip-level-name,
-.vip-gold-card .vip-content {
+div.vip-card.vip-gold-card .vip-level-img,
+div.vip-card.vip-gold-card .vip-level-badge {
+    margin-left: 0 !important;
+}
+
+div.vip-card.vip-gold-card .vip-level-name,
+div.vip-card.vip-gold-card .vip-content {
     position: relative;
     z-index: 1;
+    text-align: left !important;
+}
+
+div.vip-card.vip-gold-card .vip-content {
+    align-items: flex-start !important;
 }
 
 .vip-level-img {
@@ -1805,9 +1814,9 @@ footer {
 }
 
 /* VIP Master Special Card */
-.vip-master-card {
+section.vip-section .vip-master-card {
     position: relative;
-    background: linear-gradient(rgba(10, 10, 11, 0.55), rgba(10, 10, 11, 0.70)), url('img/porsche.jpeg') center/cover no-repeat;
+    background: linear-gradient(rgba(10, 10, 11, 0.55), rgba(10, 10, 11, 0.70)), url('img/porsche.jpeg') center/cover no-repeat !important;
     border: 2px solid;
     border-image: linear-gradient(135deg, var(--accent), #f59e0b, var(--accent)) 1;
     border-radius: 24px;
