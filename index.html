@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/PrismaticBurst.css">
     <link rel="icon" type="image/png" href="img/logo.png">
 </head>
 <body>
@@ -489,7 +490,7 @@
                 <h2 class="vip-title">AlphaTrust Alpha Experience VIP Career Plan</h2>
                 <p class="vip-subtitle">Climb the career ladder and unlock exclusive rewards</p>
             </div>
-            <div class="vip-grid">
+<div class="vip-grid">
                 <div class="vip-card">
                     <img src="img/level-1.png" alt="Level 1" class="vip-level-img">
                     <div class="vip-level-badge" data-i18n="vip-level-1">Level 1</div>
@@ -512,7 +513,7 @@
                 </div>
                 <div class="vip-card">
                     <img src="img/level-2.png" alt="Level 2" class="vip-level-img">
-                    <div class="vip-level-badge">Level 2</div>
+                    <div class="vip-level-badge" data-i18n="vip-level-2">Level 2</div>
                     <div class="vip-level-name">SILVER</div>
                     <div class="vip-content">
                         <div class="vip-requirement">
@@ -532,7 +533,7 @@
                 </div>
                 <div class="vip-card">
                     <img src="img/level-3.png" alt="Level 3" class="vip-level-img">
-                    <div class="vip-level-badge">Level 3</div>
+                    <div class="vip-level-badge" data-i18n="vip-level-3">Level 3</div>
                     <div class="vip-level-name">GOLD</div>
                     <div class="vip-content">
                         <div class="vip-requirement">
@@ -551,7 +552,7 @@
                 </div>
                 <div class="vip-card">
                     <img src="img/level-4.png" alt="Level 4" class="vip-level-img">
-                    <div class="vip-level-badge">Level 4</div>
+                    <div class="vip-level-badge" data-i18n="vip-level-4">Level 4</div>
                     <div class="vip-level-name">PLATINUM</div>
                     <div class="vip-content">
                         <div class="vip-requirement">
@@ -570,7 +571,7 @@
                 </div>
                 <div class="vip-card">
                     <img src="img/level-5.png" alt="Level 5" class="vip-level-img">
-                    <div class="vip-level-badge">Level 5</div>
+                    <div class="vip-level-badge" data-i18n="vip-level-5">Level 5</div>
                     <div class="vip-level-name">DIAMOND</div>
                     <div class="vip-content">
                         <div class="vip-requirement">
@@ -587,8 +588,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="vip-card">
-                    <img src="img/level-6.png" alt="Level 6" class="vip-level-img">
+            </div>
+            <div class="vip-master-card">
+                <canvas id="vipMasterCanvas"></canvas>
+                <div class="vip-master-content">
+                    <img src="img/level-6.png" alt="Level 6" class="vip-master-img">
                     <div class="vip-level-badge" data-i18n="vip-level-6">Level 6</div>
                     <div class="vip-level-name">ALPHATRUST MASTER</div>
                     <div class="vip-content">
@@ -619,6 +623,22 @@
         </div>
     </footer>
 
+    <script type="module" src="js/PrismaticBurst.mjs"></script>
     <script src="app.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const canvas = document.getElementById('vipMasterCanvas');
+            if (canvas && window.PrismaticBurst) {
+                new window.PrismaticBurst(canvas, {
+                    intensity: 2.5,
+                    speed: 0.6,
+                    animationType: 'rotate3d',
+                    colors: ['#8b82f6', '#a78bfa', '#c4b5fd', '#f59e0b', '#fbbf24'],
+                    distort: 8,
+                    mixBlendMode: 'screen'
+                });
+            }
+        });
+    </script>
 </body>
 </html>
