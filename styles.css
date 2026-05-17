@@ -1309,6 +1309,239 @@ footer {
     transform: translateY(-4px);
 }
 
+.vip-level-img {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 16px;
+    object-fit: contain;
+    display: block;
+}
+
+.vip-level-badge {
+    display: inline-block;
+    background: linear-gradient(135deg, var(--accent), #a78bfa);
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 6px 16px;
+    border-radius: 100px;
+    margin-bottom: 12px;
+}
+
+.vip-card.vip-highlight .vip-level-badge {
+    background: linear-gradient(135deg, #f59e0b, #fbbf24);
+    color: #1a1a1a;
+}
+
+.vip-level-name {
+    font-size: 24px;
+    font-weight: 800;
+    color: var(--text-primary);
+    margin-bottom: 24px;
+    letter-spacing: 2px;
+}
+
+.vip-content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.vip-requirement {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.vip-requirement .vip-label {
+    font-size: 16px;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.vip-requirement .vip-value {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.vip-reward {
+    background: rgba(34, 197, 94, 0.1);
+    border: 1px solid rgba(34, 197, 94, 0.3);
+    border-radius: 12px;
+    padding: 16px;
+    margin-top: 8px;
+}
+
+.vip-reward .vip-label {
+    font-size: 16px;
+    color: #22c55e;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.vip-gift {
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    color: #22c55e;
+    margin: 4px 0;
+}
+
+.vip-note {
+    font-size: 16px;
+    color: var(--text-muted);
+}
+
+/* Earn Section */
+.earn-section {
+    padding: 80px 0;
+    background: var(--bg-primary);
+}
+
+.earn-header {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.earn-title {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 16px;
+    background: linear-gradient(135deg, var(--accent), #a78bfa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.earn-subtitle {
+    font-size: 18px;
+    color: var(--text-muted);
+}
+
+.earn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.earn-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 24px;
+    padding: 40px 32px;
+    transition: all 0.3s ease;
+}
+
+.earn-card:hover {
+    border-color: var(--accent);
+    transform: translateY(-4px);
+}
+
+.earn-card.earn-highlight {
+    background: linear-gradient(135deg, rgba(139, 130, 246, 0.12), rgba(139, 130, 246, 0.05));
+    border-color: var(--accent);
+}
+
+.earn-icon {
+    color: var(--accent);
+    margin-bottom: 24px;
+}
+
+.earn-card.earn-highlight .earn-icon {
+    color: #f59e0b;
+}
+
+.earn-card-title {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.earn-card-desc {
+    font-size: 16px;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-bottom: 32px;
+}
+
+.earn-levels {
+    background: var(--bg-secondary);
+    border-radius: 16px;
+    padding: 24px;
+    margin-bottom: 20px;
+}
+
+.earn-level-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.earn-level-num {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--accent);
+}
+
+.earn-level-label {
+    font-size: 16px;
+    color: var(--text-secondary);
+}
+
+.earn-level-divider {
+    height: 1px;
+    background: var(--border);
+    margin: 16px 0;
+}
+
+.earn-note {
+    font-size: 14px;
+    color: var(--text-muted);
+    font-style: italic;
+}
+
+.vip-header {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.vip-title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.vip-subtitle {
+    font-size: 18px;
+    color: var(--text-muted);
+}
+
+.vip-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.vip-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 32px 24px;
+    text-align: center;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.vip-card:hover {
+    border-color: var(--accent);
+    transform: translateY(-4px);
+}
+
 .vip-card.vip-highlight {
     background: linear-gradient(135deg, rgba(139, 130, 246, 0.15), rgba(139, 130, 246, 0.05));
     border-color: var(--accent);
