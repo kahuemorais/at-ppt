@@ -128,8 +128,6 @@ const translations = {
         "daily-pub-desc": "Every day, AlphaTrust publishes videos of the trades it has executed—showing the profits earned, unfiltered and with no results hidden. This is a practice that no other company in the industry has ever adopted.",
         "live-streams-title": "Analysis Live Streams",
         "live-streams-desc": "We host daily live streams featuring analysis and live trading in real time. You can watch every decision being made right before your eyes.",
-        "mission-title": "Transforming Financial Lives",
-        "mission-text": "Through elite analysis, smart investing strategies, and a transparent community that puts your success first.",
         "mission-question": "Your journey to financial freedom starts here.",
         "mission-highlight": "Join the movement and become part of something extraordinary.",
         "mission-cta": "Start Your Journey",
