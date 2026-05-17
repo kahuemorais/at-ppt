@@ -161,23 +161,19 @@ if (savedLang) {
 }
 
 let lastScroll = 0;
-const header = document.querySelector('.site-header');
-const langSwitcher = document.querySelector('.lang-switcher');
+const navbar = document.querySelector('.navbar');
 
 window.addEventListener('scroll', () => {
     const currentScroll = window.pageYOffset;
     
     if (currentScroll > 100) {
         if (currentScroll > lastScroll) {
-            header.classList.add('hidden');
-            langSwitcher.classList.add('hidden');
+            navbar.classList.add('hidden');
         } else {
-            header.classList.remove('hidden');
-            langSwitcher.classList.remove('hidden');
+            navbar.classList.remove('hidden');
         }
     } else {
-        header.classList.remove('hidden');
-        langSwitcher.classList.remove('hidden');
+        navbar.classList.remove('hidden');
     }
     
     lastScroll = currentScroll;
