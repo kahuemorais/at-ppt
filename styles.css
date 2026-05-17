@@ -1126,7 +1126,7 @@ footer {
 .analytical-section {
     padding: 80px 0;
     position: relative;
-    background: linear-gradient(135deg, rgba(10,10,11,0.75), rgba(10,10,11,0.85)), url('img/guy-pc.jpeg');
+    background: linear-gradient(135deg, rgba(10,10,11,0.40), rgba(10,10,11,0.55)), url('img/guy-pc.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1137,7 +1137,7 @@ footer {
     content: '';
     position: absolute;
     inset: 0;
-    background: rgba(10,10,11,0.70);
+    background: rgba(10,10,11,0.45);
     z-index: 0;
 }
 
