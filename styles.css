@@ -265,7 +265,7 @@ h1 .accent {
 
 .locations-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(280px, auto));
     gap: 24px;
 }
 
@@ -863,7 +863,7 @@ footer {
     }
 
     .locations-grid {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(auto-fit, minmax(260px, auto));
     }
 
     .team-grid {
