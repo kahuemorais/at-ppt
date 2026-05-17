@@ -1288,7 +1288,7 @@ footer {
     content: '';
     position: absolute;
     inset: 0;
-    background: linear-gradient(to bottom, rgba(10,10,11,0.4), rgba(10,10,11,0.6));
+    background: linear-gradient(to bottom, rgba(10,10,11,0.65), rgba(10,10,11,0.8));
     z-index: 0;
 }
 
@@ -1305,29 +1305,24 @@ footer {
 .global-title {
     font-size: 28px;
     font-weight: 700;
+    color: #ffffff;
 }
 
-.assets-grid {
-    display: flex;
-    justify-content: center;
-    gap: 24px;
-    flex-wrap: wrap;
-    margin-bottom: 24px;
-}
-
-.asset-item {
-    background: var(--card-bg);
-    border: 1px solid var(--border);
+.global-section .asset-item {
+    background: rgba(24,24,27,0.85);
+    border: 1px solid rgba(139,92,246,0.4);
     border-radius: 12px;
     padding: 16px 32px;
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
 }
 
 .global-note {
     text-align: center;
-    font-size: 16px;
-    color: var(--text-muted);
+    font-size: 18px;
+    font-weight: 600;
+    color: #e4e4e7;
     margin-bottom: 40px;
 }
 
@@ -1349,6 +1344,15 @@ footer {
     width: 100px;
     border-radius: 8px 8px 0 0;
     padding: 16px;
+    background: rgba(24,24,27,0.8);
+}
+
+.volume-bar .volume-label,
+.volume-bar .volume-value,
+.volume-compare {
+    color: #ffffff;
+    font-weight: 700;
+    text-shadow: 0 1px 4px rgba(0,0,0,0.5);
 }
 
 .volume-bar.forex {
