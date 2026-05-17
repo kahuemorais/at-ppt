@@ -142,6 +142,10 @@ const translations = {
         "guide-steady-desc": "BUILDER and ADVANCE offer strong daily returns with compounding potential.",
         "guide-max": "Maximize returns?",
         "guide-max-desc": "ELITE delivers the highest daily rate with long-term compounding.",
+        "cta-title": "Ready to Get Started?",
+        "cta-text": "Join AlphaTrust today and start your journey with a platform that prioritizes transparency, security, and results.",
+        "cta-button": "Open Your Account",
+        "rights": "All rights reserved."
     },
     pt: {
         "eyebrow": "Bicampeão Mundial de Trading",
@@ -282,6 +286,9 @@ const translations = {
         "guide-steady-desc": "BUILDER e ADVANCE oferecem retornos diários sólidos com potencial de juros compostos.",
         "guide-max": "Maximizar retornos?",
         "guide-max-desc": "ELITE entrega a maior taxa diária com potencial de composição a longo prazo.",
+        "cta-title": "Pronto para Começar?",
+        "cta-text": "Junte-se à AlphaTrust hoje e inicie sua jornada com uma plataforma que prioriza transparência, segurança e resultados.",
+        "cta-button": "Abra Sua Conta",
         "rights": "Todos os direitos reservados."
     }
 };
