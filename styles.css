@@ -3,7 +3,7 @@
     --bg-secondary: #111113;
     --bg-card: #18181b;
     --text-primary: #f4f4f5;
-    --text-secondary: #c8c8d0;
+    --text-secondary: #e0e0e8;
     --accent: #8b5cf6;
     --accent-hover: #7c3aed;
     --border: #27272a;
@@ -849,7 +849,7 @@ h1 .accent {
     color: var(--text-secondary);
     margin-bottom: 32px;
     line-height: 1.7;
-    font-size: 17px;
+    font-size: 18px;
 }
 
 .levels-intro {
@@ -857,8 +857,7 @@ h1 .accent {
     color: var(--text-secondary);
     margin-bottom: 32px;
     line-height: 1.7;
-    font-size: 15px;
-    opacity: 0.85;
+    font-size: 16px;
 }
 
 .commission-table {
