@@ -38,9 +38,11 @@ document.querySelectorAll('.lang-btn').forEach(btn => {
     });
 });
 
-document.addEventListener('click', () => {
-    document.querySelectorAll('.lang-dropdown').forEach(d => d.style.display = 'none');
-    document.querySelectorAll('.lang-switcher').forEach(s => s.classList.remove('dropdown-open'));
+document.addEventListener('click', (e) => {
+    if (!e.target.closest('.lang-switcher')) {
+        document.querySelectorAll('.lang-dropdown').forEach(d => d.style.display = 'none');
+        document.querySelectorAll('.lang-switcher').forEach(s => s.classList.remove('dropdown-open'));
+    }
 });
 
 const savedLang = localStorage.getItem('alpha-lang');
