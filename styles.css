@@ -1715,6 +1715,11 @@ div.vip-card.vip-gold-card .vip-content {
     align-items: flex-start !important;
 }
 
+div.vip-card.vip-diamond-card {
+    border-color: #c0c0c0 !important;
+    text-align: left !important;
+}
+
 .vip-card:not(.vip-gold-card) {
     text-align: left !important;
 }
