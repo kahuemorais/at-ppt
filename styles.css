@@ -140,19 +140,24 @@ section {
     justify-content: center;
     position: relative;
     overflow: hidden;
-    background-image: url('img/trade-pc.webp');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background: var(--bg-base);
 }
 
 .hero-bg {
-    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
 }
 
 .hero-bg-img {
-    display: none;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    opacity: 0.45;
 }
 
 .hero-overlay {
@@ -161,7 +166,7 @@ section {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(135deg, rgba(10, 10, 15, 0.88) 0%, rgba(10, 10, 15, 0.65) 50%, rgba(10, 10, 15, 0.80) 100%);
+    background: linear-gradient(135deg, rgba(10, 10, 15, 0.70) 0%, rgba(10, 10, 15, 0.50) 50%, rgba(10, 10, 15, 0.65) 100%);
 }
 
 .hero-content {
@@ -177,7 +182,7 @@ section {
     color: var(--text-secondary);
     margin-bottom: 16px;
     letter-spacing: 0.02em;
-    text-shadow: 0 1px 4px rgba(0,0,0,0.6);
+    text-shadow: 0 2px 8px rgba(0,0,0,0.8);
 }
 
 .hero-eyebrow {
@@ -187,6 +192,7 @@ section {
     color: var(--accent);
     margin-bottom: 24px;
     letter-spacing: 0.01em;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.8);
 }
 
 .logo-img {
@@ -201,7 +207,7 @@ h1 {
     line-height: 1;
     letter-spacing: -0.045em;
     margin-bottom: 32px;
-    text-shadow: 0 2px 12px rgba(0,0,0,0.5);
+    text-shadow: 0 3px 16px rgba(0,0,0,0.7);
 }
 
 h1 .accent {
@@ -214,7 +220,7 @@ h1 .accent {
     max-width: 600px;
     margin-bottom: 56px;
     line-height: 1.75;
-    text-shadow: 0 1px 4px rgba(0,0,0,0.5);
+    text-shadow: 0 2px 8px rgba(0,0,0,0.8);
 }
 
 .cta-group {
