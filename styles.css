@@ -609,6 +609,20 @@ h1 .accent {
     overflow-x: auto;
 }
 
+.plans-table-wrapper::-webkit-scrollbar {
+    height: 6px;
+}
+
+.plans-table-wrapper::-webkit-scrollbar-track {
+    background: var(--bg-secondary);
+    border-radius: 3px;
+}
+
+.plans-table-wrapper::-webkit-scrollbar-thumb {
+    background: var(--accent);
+    border-radius: 3px;
+}
+
 .plans-table th,
 .plans-table td {
     padding: 24px 20px;
