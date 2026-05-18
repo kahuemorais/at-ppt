@@ -672,6 +672,7 @@ h1 .accent {
     font-weight: 700;
     color: var(--accent);
     font-size: 16px;
+    white-space: nowrap;
 }
 
 .plan-tag {
