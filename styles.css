@@ -864,6 +864,10 @@ h1 .accent {
     .level-img {
         max-width: 120px;
     }
+
+    .assets-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 .commission-container {
