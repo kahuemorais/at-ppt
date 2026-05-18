@@ -158,7 +158,7 @@ section {
     align-items: flex-start;
     position: relative;
     overflow: hidden;
-    background-image: url('img/hero.jpeg');
+    background-image: url('img/low/hero.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -513,7 +513,7 @@ h1 .accent {
 .mission-section {
     padding: 120px 0;
     position: relative;
-    background: linear-gradient(135deg, rgba(10,10,11,0.50), rgba(10,10,11,0.65)), url('img/Transforming%20Financial%20Lives.jpeg');
+    background: linear-gradient(135deg, rgba(10,10,11,0.50), rgba(10,10,11,0.65)), url('img/low/Transforming Financial Lives.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1276,7 +1276,7 @@ footer {
 .withdraw-section {
     padding: 80px 0;
     position: relative;
-    background: linear-gradient(135deg, rgba(10,10,11,0.50), rgba(10,10,11,0.65)), url('img/transacao-e-saques.jpeg');
+    background: linear-gradient(135deg, rgba(10,10,11,0.50), rgba(10,10,11,0.65)), url('img/low/transacao-e-saques.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1395,7 +1395,7 @@ footer {
 .analytical-section {
     padding: 80px 0;
     position: relative;
-    background: linear-gradient(135deg, rgba(10,10,11,0.40), rgba(10,10,11,0.55)), url('img/guy-pc.jpeg');
+    background: linear-gradient(135deg, rgba(10,10,11,0.40), rgba(10,10,11,0.55)), url('img/low/guy-pc.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1528,7 +1528,7 @@ footer {
 .binary-section {
     padding: 80px 0;
     position: relative;
-    background: linear-gradient(135deg, rgba(10,10,11,0.30), rgba(10,10,11,0.40)), url('img/mercado-dinamico.jpeg');
+    background: linear-gradient(135deg, rgba(10,10,11,0.30), rgba(10,10,11,0.40)), url('img/low/mercado-dinamico.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1938,7 +1938,7 @@ div.vip-card.vip-diamond-card {
 .transparency-section {
     padding: 120px 0;
     position: relative;
-    background: linear-gradient(135deg, rgba(10,10,11,0.50), rgba(10,10,11,0.65)), url('img/transparencia-completa.jpeg');
+    background: linear-gradient(135deg, rgba(10,10,11,0.50), rgba(10,10,11,0.65)), url('img/low/transparencia-completa.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -2145,7 +2145,7 @@ section.vip-section .vip-master-card::after {
 /* Earn Section */
 .earn-section {
     padding: 80px 0;
-    background: linear-gradient(135deg, rgba(10,10,11,0.85), rgba(10,10,11,0.92)), url('img/2-formas-ganhar.jpeg');
+    background: linear-gradient(135deg, rgba(10,10,11,0.85), rgba(10,10,11,0.92)), url('img/low/2-formas-ganhar.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
