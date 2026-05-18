@@ -24,6 +24,13 @@ document.querySelectorAll('.lang-btn[data-lang]').forEach(btn => {
     });
 });
 
+document.addEventListener('click', (e) => {
+    const details = document.querySelector('.lang-details');
+    if (!details.contains(e.target)) {
+        details.removeAttribute('open');
+    }
+});
+
 const savedLang = localStorage.getItem('alpha-lang');
 if (savedLang) {
     setLanguage(savedLang);
