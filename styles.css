@@ -174,7 +174,7 @@ section {
     font-family: 'Orbitron', sans-serif;
     font-size: 16px;
     font-weight: 500;
-    color: var(--text-secondary);
+    color: var(--text-primary);
     margin-bottom: 16px;
     letter-spacing: 0.02em;
     text-shadow: 0 2px 8px rgba(0,0,0,0.8);
@@ -211,7 +211,7 @@ h1 .accent {
 
 .hero-description {
     font-size: 20px;
-    color: var(--text-secondary);
+    color: var(--text-primary);
     max-width: 600px;
     margin-bottom: 56px;
     line-height: 1.75;
