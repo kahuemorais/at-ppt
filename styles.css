@@ -1069,7 +1069,9 @@ footer {
     .stats-row {
         grid-template-columns: 1fr;
     }
+}
 
+@media (max-width: 600px) {
     .plans-container {
         overflow-x: auto;
         -webkit-overflow-scrolling: touch;
@@ -1082,6 +1084,15 @@ footer {
     .plans-table th,
     .plans-table td {
         padding: 14px 10px;
+    }
+
+    .plans-guidance {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+
+    .guidance-item {
+        padding: 16px;
     }
 
     .plans-layout .split-sticky {
