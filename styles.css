@@ -1980,6 +1980,7 @@ section.vip-section .vip-master-card {
     background: rgba(10, 10, 11, 0.75);
     border-radius: 16px;
     padding: 24px;
+    text-align: left;
 }
 
 .vip-master-card::before {
