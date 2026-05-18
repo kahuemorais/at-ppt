@@ -1980,7 +1980,7 @@ section.vip-section .vip-master-card {
     z-index: 1;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .vip-master-img {
