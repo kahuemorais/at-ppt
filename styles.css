@@ -1977,6 +1977,7 @@ section.vip-section .vip-master-card {
 .vip-master-inner {
     position: relative;
     z-index: 1;
+    display: inline-block;
     background: rgba(10, 10, 11, 0.75);
     border-radius: 16px;
     padding: 24px;
