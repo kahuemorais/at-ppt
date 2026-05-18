@@ -1983,6 +1983,7 @@ section.vip-section .vip-master-card {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    text-align: left;
 }
 
 .vip-master-img {
