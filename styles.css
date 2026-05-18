@@ -299,6 +299,7 @@ h1 .accent {
     font-size: 17px;
     color: var(--text-secondary);
     line-height: 1.8;
+    margin-bottom: 48px;
 }
 
 .locations-grid {
