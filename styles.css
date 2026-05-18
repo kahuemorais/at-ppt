@@ -1974,6 +1974,14 @@ section.vip-section .vip-master-card {
     z-index: 1;
 }
 
+.vip-master-inner {
+    position: relative;
+    z-index: 1;
+    background: rgba(10, 10, 11, 0.75);
+    border-radius: 16px;
+    padding: 24px;
+}
+
 .vip-master-card::before {
     content: '';
     position: absolute;
