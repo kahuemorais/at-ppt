@@ -147,14 +147,6 @@ section {
     background-attachment: fixed;
 }
 
-.hero-bg {
-    display: none;
-}
-
-.hero-bg-img {
-    display: none;
-}
-
 .hero::before {
     content: '';
     position: absolute;
@@ -1090,10 +1082,6 @@ footer {
     .hero-split {
         grid-template-columns: 1fr;
         gap: 40px;
-    }
-
-    .hero-bg-img {
-        object-position: center;
     }
 }
 
