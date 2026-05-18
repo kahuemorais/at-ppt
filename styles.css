@@ -1074,6 +1074,14 @@ footer {
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .team-card {
+        padding: 24px 16px;
+    }
+
+    .team-card.team-ceo-card {
+        grid-column: 1 / -1;
+    }
+
 
     .activation-grid {
         grid-template-columns: repeat(3, 1fr);
