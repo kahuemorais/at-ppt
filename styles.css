@@ -1736,6 +1736,8 @@ div.vip-card.vip-gold-card .vip-content {
     margin: 0 auto 16px;
     object-fit: contain;
     display: block;
+    background: var(--bg-secondary);
+    border-radius: 12px;
 }
 
 .vip-level-badge {
@@ -2164,6 +2166,8 @@ section.vip-section .vip-master-card {
     margin: 0 auto 16px;
     object-fit: contain;
     display: block;
+    background: var(--bg-secondary);
+    border-radius: 12px;
 }
 
 .vip-level-badge {
