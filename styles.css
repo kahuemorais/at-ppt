@@ -996,8 +996,13 @@ footer {
         grid-template-columns: 1fr;
     }
 
+    .plans-container {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
     .plans-table {
-        font-size: 16px;
+        min-width: 640px;
     }
 
     .plans-table th,
@@ -1334,8 +1339,8 @@ footer {
 }
 
 .standards-subtitle {
-    font-size: 16px;
-    color: var(--accent);
+    font-size: 18px;
+    color: #a78bfa;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
@@ -1379,9 +1384,8 @@ footer {
 
 .standards-note {
     text-align: center;
-    font-size: 13px;
+    font-size: 15px;
     color: var(--text-secondary);
-    opacity: 0.7;
     margin-top: -24px;
     margin-bottom: 32px;
     font-style: italic;
