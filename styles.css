@@ -1112,8 +1112,8 @@ footer {
 .activation-subtitle {
     font-size: 16px;
     color: var(--text-secondary);
-    max-width: 600px;
-    margin: 0 auto;
+    max-width: none;
+    margin: 0;
 }
 
 .activation-grid {
