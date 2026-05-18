@@ -999,6 +999,7 @@ footer {
 }
 
 @media (max-width: 1024px) {
+
     .split-section,
     .split-section.reverse {
         grid-template-columns: 1fr;
@@ -1016,6 +1017,12 @@ footer {
     .team-grid {
         grid-template-columns: repeat(2, 1fr);
     }
+
+
+    .activation-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
 }
 
 @media (max-width: 768px) {
@@ -1156,11 +1163,7 @@ footer {
     color: var(--text-secondary);
 }
 
-@media (max-width: 1024px) {
-    .activation-grid {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
+
 
 @media (max-width: 768px) {
     .activation-grid {
@@ -1173,9 +1176,20 @@ footer {
 }
 
 @media (max-width: 480px) {
+
     .activation-grid {
         grid-template-columns: 1fr;
     }
+
+
+    .earn-card {
+        padding: 24px 16px;
+    }
+
+    .earn-card-title {
+        font-size: 20px;
+    }
+
 }
 
 .withdraw-section {
@@ -2229,15 +2243,7 @@ section.vip-section .vip-master-card {
     }
 }
 
-@media (max-width: 480px) {
-    .earn-card {
-        padding: 24px 16px;
-    }
 
-    .earn-card-title {
-        font-size: 20px;
-    }
-}
 
 @media (max-width: 768px) {
     .analytical-title { font-size: 28px; }
