@@ -1429,11 +1429,10 @@ footer {
 
 .standards-note {
     text-align: center;
-    font-size: 15px;
+    font-size: 16px;
     color: var(--text-secondary);
     margin-top: -24px;
     margin-bottom: 32px;
-    font-style: italic;
 }
 
 .advantage-highlight {
