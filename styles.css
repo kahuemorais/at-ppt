@@ -605,6 +605,10 @@ h1 .accent {
     border-collapse: collapse;
 }
 
+.plans-table-wrapper {
+    overflow-x: auto;
+}
+
 .plans-table th,
 .plans-table td {
     padding: 24px 20px;
