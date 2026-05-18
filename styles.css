@@ -1936,6 +1936,7 @@ section.vip-section .vip-master-card {
     background: linear-gradient(135deg, rgba(10,10,11,0.85), rgba(10,10,11,0.92)), url('img/2-formas-ganhar.jpeg');
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 
 .earn-header {
