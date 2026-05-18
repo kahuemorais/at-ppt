@@ -826,10 +826,9 @@ h1 .accent {
 }
 
 .commission-header {
-    display: flex;
-    align-items: center;
-    gap: 24px;
-    margin-bottom: 48px;
+    text-align: left;
+    margin-bottom: 16px;
+    display: block;
 }
 
 .commission-badge {
@@ -846,6 +845,26 @@ h1 .accent {
     font-family: 'Orbitron', sans-serif;
     font-size: 32px;
     font-weight: 700;
+    color: var(--text-primary);
+    text-align: left;
+    margin-bottom: 12px;
+}
+
+.activation-subtitle {
+    text-align: left;
+    color: var(--text-secondary);
+    margin-bottom: 32px;
+    line-height: 1.7;
+    font-size: 17px;
+}
+
+.levels-intro {
+    text-align: left;
+    color: var(--text-secondary);
+    margin-bottom: 32px;
+    line-height: 1.7;
+    font-size: 15px;
+    opacity: 0.85;
 }
 
 .commission-table {
