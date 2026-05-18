@@ -87,6 +87,10 @@ h1, h2, h3, h4 {
 
 .lang-switcher:hover .lang-dropdown,
 .lang-switcher:focus-within .lang-dropdown {
+    display: none;
+}
+
+.lang-switcher.dropdown-open .lang-dropdown {
     display: flex;
 }
 
