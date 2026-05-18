@@ -647,7 +647,6 @@ h1 .accent {
     padding: 24px 20px;
     text-align: left;
     border-bottom: 1px solid var(--border);
-    white-space: nowrap;
 }
 
 .plans-table th {
@@ -1093,7 +1092,6 @@ footer {
     }
 
     .plans-table {
-        min-width: 640px;
     }
 
     .plans-table th,
