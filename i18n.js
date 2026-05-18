@@ -434,9 +434,9 @@ const translations = {
         "cta-title": "¿Listo para Comenzar?",
         "cta-text": "Únete a AlphaTrust hoy y comienza tu viaje con una plataforma que prioriza la transparencia, seguridad y los resultados.",
         "cta-button": "Abre Tu Cuenta",
-        "rights": "Todos los derechos reservados.",
         "l7": "Nivel 7", "l8": "Nivel 8", "l9": "Nivel 9", "l10": "Nivel 10",
-        "l11": "Nivel 11", "l12": "Nivel 12", "l13": "Nivel 13", "l14": "Nivel 14"
+        "l11": "Nivel 11", "l12": "Nivel 12", "l13": "Nivel 13", "l14": "Nivel 14",
+        "rights": "Todos los derechos reservados."
     },
     vi: {
         "eyebrow": "Vô Địch Thế Giới Trading 2 Lần",
@@ -557,8 +557,6 @@ const translations = {
         "cta-title": "Sẵn Sàng Để Bắt Đầu?",
         "cta-text": "Tham gia AlphaTrust hôm nay và bắt đầu hành trình với nền tảng ưu tiên minh bạch, bảo mật và kết quả.",
         "cta-button": "Mở Tài Khoản Của Bạn",
-        "rights": "Mọi quyền được bảo lưu.",
-        "l7": "Cấp 7", "l8": "Cấp 8", "l9": "Cấp 9", "l10": "Cấp 10",
-        "l11": "Cấp 11", "l12": "Cấp 12", "l13": "Cấp 13", "l14": "Cấp 14"
+        "rights": "Mọi quyền được bảo lưu."
     }
 };
