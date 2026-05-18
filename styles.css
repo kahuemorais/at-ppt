@@ -2183,6 +2183,10 @@ section.vip-section .vip-master-card {
         grid-column: span 1;
     }
 
+    .vip-card.vip-gold-card {
+        grid-column: 1 / -1;
+    }
+
     .transparency-grid { grid-template-columns: 1fr; }
     .global-title { font-size: 22px; }
     .assets-grid { gap: 12px; }
