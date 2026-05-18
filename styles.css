@@ -715,6 +715,7 @@ h1 .accent {
     height: auto;
     margin-bottom: 16px;
     border-radius: 12px;
+    background: var(--bg-secondary);
 }
 
 .level-info {
