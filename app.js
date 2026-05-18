@@ -54,3 +54,34 @@ window.addEventListener('scroll', () => {
     
     lastScroll = currentScroll;
 });
+
+// Gold card video: reset when section leaves/enters viewport
+const goldVideo = document.querySelector('video.vip-gold-video');
+if (goldVideo) {
+    // No loop, plays once and stops
+    goldVideo.addEventListener('ended', () => {
+        goldVideo.style.opacity = '1';
+    });
+
+    // Reset video when user leaves page/session
+    document.addEventListener('visibilitychange', () => {
+        if (document.visibilityState === 'hidden') {
+            goldVideo.currentTime = 0;
+            goldVideo.play().catch(() => {});
+        }
+    });
+
+    // Reset when scrolling back into view
+    const goldCard = document.querySelector('div.vip-card.vip-gold-card');
+    if (goldCard) {
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    goldVideo.currentTime = 0;
+                    goldVideo.play().catch(() => {});
+                }
+            });
+        }, { threshold: 0.5 });
+        observer.observe(goldCard);
+    }
+}
