@@ -832,6 +832,15 @@ h1 .accent {
 @media (max-width: 600px) {
     .levels-grid {
         grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .level-card {
+        padding: 16px;
+    }
+
+    .level-img {
+        max-width: 120px;
     }
 }
 
