@@ -1699,6 +1699,8 @@ div.vip-card.vip-gold-card::before {
 div.vip-card.vip-gold-card .vip-level-img,
 div.vip-card.vip-gold-card .vip-level-badge {
     margin-left: 0 !important;
+    position: relative;
+    z-index: 1;
 }
 
 div.vip-card.vip-gold-card .vip-level-name,
