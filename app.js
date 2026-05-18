@@ -21,17 +21,19 @@ function setLanguage(lang) {
 document.querySelectorAll('.lang-btn').forEach(btn => {
     btn.addEventListener('click', (e) => {
         e.stopPropagation();
-        setLanguage(btn.dataset.lang);
         const switcher = btn.closest('.lang-switcher');
-        const dropdown = switcher.querySelector('.lang-dropdown');
-        document.querySelectorAll('.lang-dropdown').forEach(d => {
-            if (d !== dropdown) d.style.display = 'none';
-        });
-        document.querySelectorAll('.lang-switcher').forEach(s => {
-            if (s !== switcher) s.classList.remove('dropdown-open');
-        });
+
         if (btn.classList.contains('globe-btn')) {
             switcher.classList.toggle('dropdown-open');
+            document.querySelectorAll('.lang-dropdown').forEach(d => {
+                if (d !== switcher.querySelector('.lang-dropdown')) d.style.display = 'none';
+            });
+            document.querySelectorAll('.lang-switcher').forEach(s => {
+                if (s !== switcher) s.classList.remove('dropdown-open');
+            });
+        } else {
+            setLanguage(btn.dataset.lang);
+            switcher.classList.remove('dropdown-open');
         }
     });
 });
