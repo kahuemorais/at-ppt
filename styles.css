@@ -1416,7 +1416,7 @@ footer {
     content: '';
     position: absolute;
     inset: 0;
-    background: rgba(10,10,11,0.30);
+    background: rgba(10,10,11,0.75);
     z-index: 0;
 }
 
@@ -1433,7 +1433,7 @@ footer {
 .binary-title {
     font-size: 32px;
     font-weight: 700;
-    text-shadow: 0 2px 8px rgba(0,0,0,0.6);
+    text-shadow: 0 0 20px rgba(0,0,0,0.95), 0 2px 12px rgba(0,0,0,1);
 }
 
 .binary-content {
@@ -1447,7 +1447,7 @@ footer {
     line-height: 1.8;
     color: #e4e4e7;
     margin-bottom: 16px;
-    text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    text-shadow: 0 0 15px rgba(0,0,0,0.9), 0 1px 6px rgba(0,0,0,1);
 }
 
 .binary-compared {
@@ -1457,7 +1457,7 @@ footer {
     padding: 20px;
     border-radius: 12px;
     border: 1px solid rgba(139, 92, 246, 0.3);
-    text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    text-shadow: 0 0 15px rgba(0,0,0,0.9), 0 1px 6px rgba(0,0,0,1);
 }
 
 /* Global Section */
