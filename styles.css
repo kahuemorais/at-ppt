@@ -69,6 +69,19 @@ h1, h2, h3, h4 {
     align-items: center;
 }
 
+.lang-details {
+    position: relative;
+}
+
+.lang-details summary {
+    list-style: none;
+    cursor: pointer;
+}
+
+.lang-details summary::-webkit-details-marker {
+    display: none;
+}
+
 .lang-dropdown {
     position: absolute;
     top: calc(100% + 8px);
@@ -85,7 +98,8 @@ h1, h2, h3, h4 {
     box-shadow: 0 8px 32px rgba(0,0,0,0.3);
 }
 
-.lang-switcher.dropdown-open .lang-dropdown {
+.lang-switcher.dropdown-open .lang-dropdown,
+.lang-details[open] .lang-dropdown {
     display: flex;
 }
 

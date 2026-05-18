@@ -18,31 +18,10 @@ function setLanguage(lang) {
     localStorage.setItem('alpha-lang', lang);
 }
 
-document.querySelectorAll('.lang-btn').forEach(btn => {
-    btn.addEventListener('click', (e) => {
-        e.stopPropagation();
-        const switcher = btn.closest('.lang-switcher');
-
-        if (btn.classList.contains('globe-btn')) {
-            switcher.classList.toggle('dropdown-open');
-            document.querySelectorAll('.lang-dropdown').forEach(d => {
-                if (d !== switcher.querySelector('.lang-dropdown')) d.style.display = 'none';
-            });
-            document.querySelectorAll('.lang-switcher').forEach(s => {
-                if (s !== switcher) s.classList.remove('dropdown-open');
-            });
-        } else {
-            setLanguage(btn.dataset.lang);
-            switcher.classList.remove('dropdown-open');
-        }
+document.querySelectorAll('.lang-btn[data-lang]').forEach(btn => {
+    btn.addEventListener('click', () => {
+        setLanguage(btn.dataset.lang);
     });
-});
-
-document.addEventListener('click', (e) => {
-    if (!e.target.closest('.lang-switcher')) {
-        document.querySelectorAll('.lang-dropdown').forEach(d => d.style.display = 'none');
-        document.querySelectorAll('.lang-switcher').forEach(s => s.classList.remove('dropdown-open'));
-    }
 });
 
 const savedLang = localStorage.getItem('alpha-lang');
