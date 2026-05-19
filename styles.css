@@ -1793,7 +1793,7 @@ div.vip-gold-overlay {
     position: absolute;
     inset: 0;
     background: linear-gradient(rgba(10, 10, 11, 0.50), rgba(10, 10, 11, 0.65));
-    z-index: 1;
+    z-index: 2;
     pointer-events: none;
 }
 
@@ -1801,13 +1801,13 @@ div.vip-card.vip-gold-card .vip-level-img,
 div.vip-card.vip-gold-card .vip-level-badge {
     margin-left: 0 !important;
     position: relative;
-    z-index: 1;
+    z-index: 3;
 }
 
 div.vip-card.vip-gold-card .vip-level-name,
 div.vip-card.vip-gold-card .vip-content {
     position: relative;
-    z-index: 1;
+    z-index: 3;
     text-align: left !important;
 }
 
@@ -2105,6 +2105,7 @@ section.vip-section .vip-master-card::after {
     inset: 0;
     background: rgba(10, 10, 11, 0.45);
     pointer-events: none;
+    z-index: 0;
 }
 
 .vip-master-card #vipMasterCanvas {
