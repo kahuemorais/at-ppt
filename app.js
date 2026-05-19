@@ -67,18 +67,20 @@ if (goldVideo) {
     document.addEventListener('visibilitychange', () => {
         if (document.visibilityState === 'hidden') {
             goldVideo.currentTime = 0;
-            goldVideo.play().catch(() => {});
+            goldVideo.play().catch(e => console.warn('Video play failed:', e));
+            if (observer) observer.disconnect();
         }
     });
 
     // Reset when scrolling back into view
     const goldCard = document.querySelector('div.vip-card.vip-gold-card');
+    let observer = null;
     if (goldCard) {
-        const observer = new IntersectionObserver((entries) => {
+        observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
                     goldVideo.currentTime = 0;
-                    goldVideo.play().catch(() => {});
+                    goldVideo.play().catch(e => console.warn('Video play failed:', e));
                 }
             });
         }, { threshold: 0.5 });
