@@ -41,7 +41,7 @@ const navbar = document.querySelector('.navbar');
 
 window.addEventListener('scroll', () => {
     const currentScroll = window.pageYOffset;
-    
+
     if (currentScroll > 100) {
         if (currentScroll > lastScroll) {
             navbar.classList.add('hidden');
@@ -51,9 +51,9 @@ window.addEventListener('scroll', () => {
     } else {
         navbar.classList.remove('hidden');
     }
-    
+
     lastScroll = currentScroll;
-});
+}, { passive: true });
 
 // Gold card video: reset when section leaves/enters viewport
 const goldVideo = document.querySelector('video.vip-gold-video');
